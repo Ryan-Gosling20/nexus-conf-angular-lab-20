@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-labelledby="title">
+  <title id="title">Михаил Орлов</title>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#3b8df8"/><stop offset="1" stop-color="#4930b2"/></linearGradient></defs>
+  <rect width="600" height="460" fill="url(#g)"/><circle cx="455" cy="80" r="150" fill="#58dfff" opacity=".28"/><circle cx="300" cy="175" r="78" fill="#fff" opacity=".94"/><path d="M130 460c20-135 84-206 170-206s150 71 170 206" fill="#fff" opacity=".94"/><text x="42" y="70" font-family="Arial" font-size="32" font-weight="700" fill="#fff">МО</text>
+</svg>

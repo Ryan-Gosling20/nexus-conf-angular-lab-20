@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-labelledby="title">
+  <title id="title">Денис Ковалёв</title>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#21bdd2"/><stop offset="1" stop-color="#284ec1"/></linearGradient></defs>
+  <rect width="600" height="460" fill="url(#g)"/><circle cx="455" cy="80" r="150" fill="#7df5e7" opacity=".25"/><circle cx="300" cy="175" r="78" fill="#fff" opacity=".94"/><path d="M130 460c20-135 84-206 170-206s150 71 170 206" fill="#fff" opacity=".94"/><text x="42" y="70" font-family="Arial" font-size="32" font-weight="700" fill="#fff">ДК</text>
+</svg>

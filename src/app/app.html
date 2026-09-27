@@ -1,0 +1,39 @@
+<div class="page">
+  <app-header></app-header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero-image" src="assets/conference-banner.png" alt="Цифровая сцена конференции NEXUS CONF" />
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Москва · 18 октября · 2026</p>
+        <h1>Архитектура, которая<br />объединяет идеи</h1>
+        <p class="lead">Лендинг IT-конференции, построенный на Angular-компонентах, NgModule и едином сервисе данных.</p>
+        <a class="primary-action" href="#speakers">Смотреть спикеров →</a>
+      </div>
+      <div class="stats">
+        <div><strong>4</strong><span>объекта из сервиса</span></div>
+        <div><strong>3</strong><span>Angular-компонента</span></div>
+        <div><strong>1</strong><span>общий NgModule</span></div>
+      </div>
+    </section>
+
+    <app-speakers-list></app-speakers-list>
+
+    <section class="architecture" id="architecture">
+      <div>
+        <p class="eyebrow">Структура приложения</p>
+        <h2>Компоненты получают данные через сервис</h2>
+      </div>
+      <div class="flow" aria-label="Схема потока данных">
+        <span>SpeakersService</span><b>→</b><span>SpeakersListComponent</span><b>→</b><span>SpeakerCardComponent</span>
+      </div>
+      <p class="architecture-copy">Сервис зарегистрирован как singleton через <code>providedIn: 'root'</code>. Компонент списка получает его через Dependency Injection, загружает mock-данные в <code>ngOnInit</code> и создаёт карточки директивой <code>*ngFor</code>.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>NEXUS CONF</strong>
+    <span>Angular · Components · Services · Dependency Injection</span>
+  </footer>
+</div>

@@ -1,0 +1,9 @@
+<section class="section" id="speakers">
+  <div class="heading">
+    <div><p class="kicker">Экспертиза из первых рук</p><h2>Спикеры конференции</h2></div>
+    <p>Данные карточек предоставляет единый SpeakersService через механизм Dependency Injection.</p>
+  </div>
+  <div class="grid">
+    <app-speaker-card *ngFor="let speaker of speakers" [speaker]="speaker"></app-speaker-card>
+  </div>
+</section>

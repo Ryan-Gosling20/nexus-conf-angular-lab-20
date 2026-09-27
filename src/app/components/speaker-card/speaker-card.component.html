@@ -1,0 +1,11 @@
+<article class="card">
+  <div [class]="'portrait ' + speaker.accent">
+    <img [src]="speaker.photoUrl" [alt]="speaker.name" />
+  </div>
+  <div class="body">
+    <p class="role">{{ speaker.role }} · {{ speaker.company }}</p>
+    <h3>{{ speaker.name }}</h3>
+    <p class="topic">«{{ speaker.topic }}»</p>
+    <div class="meta"><span>{{ speaker.time }}</span><span>{{ speaker.room }}</span></div>
+  </div>
+</article>
